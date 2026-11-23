@@ -1,0 +1,5 @@
+{
+  "name": "blaetterwald",
+  "owner": { "name": "gv656jzfj6-crypto" },
+  "plugins": [{ "name": "blaetterwald", "source": "./" }]
+}
