@@ -44,6 +44,8 @@ const bubble: ThemeMessageRule = {
 // Ohne Schleier (glass: false), sonst verschwindet die Szene hinter den Flaechen.
 const BASE: ThemeSetArgs = {
   colors: theme,
+  // Immer dunkel, unabhaengig von der Einstellung der App.
+  overrideColorScheme: 'dark',
   backdrop: { scene: 'zweige', glass: false },
 }
 
